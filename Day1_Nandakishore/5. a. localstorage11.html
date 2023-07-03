@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login Local Storage</title>
+    <script>
+      function submitValue() {
+        // Get the value entered by the user
+        var input = document.getElementById('value-input');
+        var password = document.getElementById('value-password');
+        var value = input.value;
+        var value1 = password.value;
+        
+        // Store the value in localStorage
+        localStorage.setItem('myValue', value);
+        localStorage.setItem('myValue1',value1);
+        
+        // Redirect to the second page
+        window.location.href = 'localstorage12.html';
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Login Portal</h1>
+    <p>Enter Login Values:</p>
+    <input type="text" id="value-input">
+    <input type="text" id="value-password">
+    <button onclick="submitValue()">Submit</button>
+  </body>
+</html>

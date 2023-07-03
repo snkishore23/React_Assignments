@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Nanda Kishore</title>
+    <style>
+        
+        
+
+    .newHover:hover
+    {
+        background-color: red;
+        text-shadow: 2px 2px #FF0000;
+    }
+
+#scroll-container {
+  
+  overflow: hidden;
+  color: darksalmon;
+}
+
+#scroll-text {
+  text-align: right;
+  color: deeppink;
+  font-weight: bold;
+  
+  -moz-animation: my-animation 10s linear infinite;
+  -webkit-animation: my-animation 10s linear infinite;
+  animation: my-animation 10s linear infinite;
+}
+
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+  from { -webkit-transform: translateX(-100%); }
+  to { -webkit-transform: translateX(100%); }
+}
+
+@keyframes my-animation {
+  from {
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+  to {
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+}
+   
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 100px;
+  height: 200px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+</style>
+</head>
+<body background="new.jpeg">  
+<body>
+    <h1 style="text-shadow: 2px 2px #FF0000;">My Portfolio</h1>
+    
+        <div class="card">
+            <img src="img_avatar.png" alt="Avatar" style="width:200px">
+            <div class="container">
+            </div>
+          </div>
+    
+    <div>
+        <font style="font-weight: bold;">Name :- </font><font color="red" style="font-size:32px; margin-top: 10px;">Nandakishore</font>
+        <br>
+        <font style="font-weight: bold;">Designation :- </font><font color="red" style="font-size:32px; margin-top: 10px;">Trainee Programmer</font>
+        <br>
+        <font style="font-weight: bold;">Company :- </font><font color="red" style="font-size:32px; margin-top: 10px;">Congruent Solutions Pvt. Ltd.</font>
+        <br>
+        <font style="font-weight: bold;">Email ID :- </font><font color="red" style="font-size:32px; margin-top: 10px;">Nandakishore.S@cspl.com</font>
+    </div>
+    <div style="margin-top: 20px;">
+        <div style="font-size: 40px; text-shadow: 2px 2px green">
+        About Me :- 
+    </div>
+        <div style="margin-top: 10px; color: limegreen; font-size: 32px; ">
+            I have completed my B.Tech. in Information Technology from SASTRA Deemed University. I am interested in Full Stack Web Development
+        </div>
+    </div>
+    <div style="margin-top: 50px; text-decoration: none;">
+        <a class="newHover" style="font-size: 40px; color: chartreuse; display: flex; text-decoration: none; width: 500px;"href="https://in.linkedin.com/in/nandakishore-srinivasan-9abb7b18b"> 
+        <i class="fa fa-linkedin-square" style="font-size:48px; color:burlywood ;"></i><div style="margin-left: 20px;">View my LinkedIn Profile</div></a>
+    </div>
+    <div style="margin-top: 50px;">
+        <h1 style="color: green;">My Projects</h3>
+        <h5 style="font-size:15px; color: darkgoldenrod;">
+            <i class="fa fa-circle"></i> &nbsp; &nbsp;Lane Detection using Machine Learning
+        </h5>
+        <h5 style="font-size:15px; color: darkgoldenrod;">
+            <i class="fa fa-circle"></i> &nbsp; &nbsp; KeyPhrase Extraction Algorithm
+        </h5>
+    </div>
+    <div style="margin-top: 50px;">
+        <h1 style="color: aqua;">Education</h3>
+        <h5 style="font-size:15px; color: crimson;">
+            <i class="fa fa-circle"></i> &nbsp; &nbsp;SASTRA Deemed University </br> <div style="color:white"> &nbsp; &nbsp; &nbsp; &nbsp;Percentage : 90% </div>
+        </h5>
+        <h5 style="font-size:15px; color: crimson;">
+            <i class="fa fa-circle"></i> &nbsp; &nbsp; D.A.V. Boys Senior Secondary School </br> <div style="color:white"> &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;CGPA : 7.8 </div>
+        </h5>
+    </div>
+    <div id="scroll-container">
+        <div id="scroll-text">Please Contact me at 9962201716 for Project Discussion<div>
+      </div>
+      
+</body>

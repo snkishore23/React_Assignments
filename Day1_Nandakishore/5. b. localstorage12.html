@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      window.onload = function() {
+        var value = localStorage.getItem('myValue');
+        var value1 = localStorage.getItem('myValue1');
+        var output = document.getElementById('value-output');
+        var output1 = document.getElementById('value-output1');
+        output.innerText = value;
+        output1.innerText = value1;
+      };
+    </script>
+  </head>
+  <body>
+    <h1>Display Portal</h1>
+    <h3>Login Id : </h3>
+    <p id="value-output"></p>
+    <h3>Password : </h3>
+    <p id="value-output1"></p>
+  </body>
+</html>
